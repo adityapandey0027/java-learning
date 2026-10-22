@@ -16,6 +16,8 @@ class Test2{
 			int a = sc.nextInt();
 			
 			System.out.println("value is : " +a);
+
+			sc.close();
 		} catch(InputMismatchException e){
 			System.out.println("Only number allowed ");
 		}

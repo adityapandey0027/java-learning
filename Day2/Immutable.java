@@ -4,7 +4,7 @@ final class Immutable {
 	final private String  fullName;
 
 	Immutable(int r, String n){
-		this.rollNumber = 
+		this.rollNumber = r;
 		this.fullName = n;
 	}
 	
